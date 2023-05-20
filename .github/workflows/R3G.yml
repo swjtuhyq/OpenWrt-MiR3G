@@ -23,6 +23,9 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  
+permissions:
+  contents: write
 
 jobs:
   build:
